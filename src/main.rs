@@ -7,7 +7,8 @@ fn main() {
 
     while count_down >= 0 {
         println!("{}...", count_down);
-    }
+        count_down -=1;
+    }   
 
     println!("Liftoff!");
 }
